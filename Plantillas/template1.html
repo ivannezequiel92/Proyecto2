@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Esta es mi primer plantilla, aprendiendo a usar una!!!!!!
+
+    <p style="color:red">Mi nombre es: {{nombre}}</p>
+    <p style="color:rgb(2, 210, 2)">Mi apellido es: {{apellido}}</p>
+    <p style="color:rgb(5, 5, 5)">Este template fue creado el: {{FechaHora}}</p>
+
+    <h3>Estas son mis notas del cole:  </h3>
+
+    <p>
+    {% for n in notas %}
+
+        {% if n < 7 %}
+            <p style="color:red"> Nota Mala {{n}}</p>
+        {% else %} <p style="color:green">Nota Buena {{n}}</p>
+        {%endif%}
+        
+    {% endfor %}
+    <p>
+</body>
+</html>

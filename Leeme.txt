@@ -1,0 +1,9 @@
+Creamos entorno virtual
+Abrimos carpeta para nuevo proyecto, y ejecutamos comando:
+python -m virtualenv "nombre de la carpeta de entorno virtual, en este caso VENV"
+Luego activamos el Entorno virtual ejecutando el archivo "venv\Scripts\activate.bat"
+Entorno virtual creado.
+Ejecutando deactivate, desactivamos Entorno virtual
+Luego instalamos scripts uno por uno o creamos un archivo "requirements.txt" y escribimos los nombres de los script que queremos
+Ejecutamos "python -m django startproject (Nombre del proyecto)
+creamos el nuevo proyecto en Django
